@@ -199,11 +199,20 @@ notion 가입
 	git branch
 		현재 로컬의 브랜치들을 확인한다
 
+	git branch 추가할이름
+		추가할 이름으로 브랜치가 생성된다
+
+	git switch 브랜치명
+		브랜치명으로 브랜치를 변경한다
+
 	git branch -m master(기존이름) main(변경할 이름)
 		master 브랜치 명을 main으로 변경한다
 	
 	git branch -D 브랜치명
 		브런치를 삭제한다
+
+	git merge 브랜치명
+		현제 브랜치와 브랜치를 병합한다
 
 2) git과 git-hub의 메인 브랜치
 	git의 기본 브랜치 명은 master
